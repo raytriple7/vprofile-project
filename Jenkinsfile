@@ -7,7 +7,7 @@ pipeline {
 	
     }
 */	
-    environment {
+    staging-environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "172.31.40.209:8081"
